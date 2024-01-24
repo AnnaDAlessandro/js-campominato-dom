@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo img{
+    width:40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #7fffd4;
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+}
+#griglia{
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    display: none;
+    
+}
+
+#griglia .box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-basis: calc(100%/9);
+    height: 50px;
+   }
+.sky{
+    background-color: rgb(89, 192, 233);
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+
+footer{
+    height: 10vh;
+    padding: 30px;
+    font-size: 15px;
+}
+footer p span{
+    text-decoration: underline;
+    color:#5c2491;
+}
